@@ -3,15 +3,48 @@ Life Expectancy and Age Bound
 
 ```mermaid
 mindmap
-  root)Projet Tutoré - Espérance de Vie & Age Limite(
-    Age Limite
-        🧈 Ramollir le beurre *25min*
-        ☕ Faire fondre le chocolat *15min*
-        🍫 Tailler le chocolat en pépite *10min*
-        🍪 Assemblage finale *30min*
-    ❄️Mettre au frais *3h*
+  root)Projet Tutoré — Espérance de Vie & Limite d'Âge(
+    
     Espérance de Vie
-        🌡️ Collecte des Données: HLD, Gapminder, INSEE
-        ✂️ Analyse des Données
-        ♨️ Visualisation des Données: Boxplot, Histogramme, Time Series etc
+        📊 Collecte des Données
+            HLD (Human Life-Table Database)
+            Gapminder
+            INSEE
+        🧹 Préparation & Nettoyage
+            Harmonisation des colonnes
+            Gestion des doublons et valeurs manquantes
+            Conversion pays → ISO3
+        🔎 Analyses
+            Espérance de vie par sexe
+            Espérance de vie à différents âges e(x)
+            Tendances temporelles (time series)
+        🌍 Visualisations
+            Cartes choroplèthes (hommes / femmes / total)
+            Pyramides des âges
+            Boxplots et distributions
+            Évolution annuelle
+    
+    Limite d'Âge (Age Bound)
+        📐 Modélisation de la longévité extrême
+            Théorie des Valeurs Extrêmes (EVT)
+            Loi de Pareto Généralisée (GPD)
+            Maximum annuel / Peak Over Threshold
+        ⚙️ Estimation de l'Âge Limite
+            Choix du seuil
+            Estimation des paramètres (ξ, σ)
+            Projection de l’âge maximal possible
+        🧪 Validation & Interprétation
+            Diagnostics EVT
+            Comparaison entre pays
+            Différences hommes / femmes
+    
+    Rendu Final
+        📁 Automatisation (R)
+            Scripts reproductibles
+            Fonctions de génération de choroplèthes
+            Graphiques exportés automatiquement
+        📝 Rapport & Présentation
+            Méthodologie
+            Résultats principaux
+            Limites & perspectives
 ```
